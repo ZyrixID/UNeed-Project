@@ -1,0 +1,14 @@
+# UNeed Malang - Python dependencies
+# Install dengan: python -m pip install -r requirements.txt
+Flask>=3.0,<4.0
+Flask-Mail>=0.10,<1.0
+pandas>=2.0,<3.0
+openpyxl>=3.1,<4.0
+xlrd>=2.0,<3.0
+python-dotenv>=1.0,<2.0
+
+# Production WSGI server (Docker / gunicorn, bukan dev server Flask)
+gunicorn>=21.0,<23.0
+
+# Testing (opsional, hanya untuk development)
+pytest>=8.0,<9.0
